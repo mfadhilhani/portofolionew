@@ -1,0 +1,138 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "certifications": "Certifications",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Muhammad Fadhil Hani",
+    "title": "Informatics Engineering Graduate",
+    "subtitle": "BNSP Certified | Network & IT Security Enthusiast",
+    "summary": "Bachelor graduate in Informatics Engineering Education with BNSP certifications in Computer Network Engineering and Program Analysis. Skilled in routing configuration, switching, IP addressing, and network troubleshooting.",
+    "downloadCV": "Download CV",
+    "contactMe": "Contact Me",
+    "statusBadge": "Available for Work",
+    "scrollDown": "Scroll down"
+  },
+  "about": {
+    "sectionTitle": "About Me",
+    "sectionSubtitle": "Get to know me",
+    "education": "Education",
+    "educationValue": "Bachelor of Informatics Engineering Education",
+    "university": "Universitas Negeri Makassar",
+    "gpa": "GPA",
+    "gpaValue": "3.93 / 4.00",
+    "focus": "Study Focus",
+    "focusValue": "Network Infrastructure & System Security",
+    "interest": "Interests",
+    "interestValue": "Network Infrastructure, Routing, Switching, IT Security",
+    "bio": "I am an enthusiastic fresh graduate in Informatics Engineering specializing in computer networking and IT security. With BNSP certifications and hands-on experience, I am ready to contribute in a professional environment."
+  },
+  "skills": {
+    "sectionTitle": "Skills",
+    "sectionSubtitle": "Technical competencies",
+    "networkTitle": "Network Infrastructure",
+    "systemsTitle": "Systems & Programming",
+    "networkSkills": ["Network Administration", "IP Addressing & Subnetting", "Routing Configuration (Intra & Inter-AS)", "Switch Configuration", "Wireless Network Installation", "Network Troubleshooting", "Network Security Fundamentals"],
+    "systemSkills": ["SQL", "Debugging", "Unit Testing", "HTML, CSS, JavaScript", "React.js / Next.js"]
+  },
+  "certifications": {
+    "sectionTitle": "Certifications",
+    "sectionSubtitle": "Professional qualifications & achievements",
+    "viewCert": "View Certificate",
+    "close": "Close",
+    "competencies": "Key Competencies",
+    "items": [
+      {
+        "id": "1",
+        "title": "Junior Network Administrator",
+        "issuer": "BNSP",
+        "year": "2024",
+        "badge": "BNSP",
+        "image": "/certs/cert-bnsp-network.jpg",
+        "competencies": ["Computer Network Engineering", "Inter-AS Routing", "Switch Configuration", "IP Addressing"]
+      },
+      {
+        "id": "2",
+        "title": "Digital Talent Scholarship",
+        "issuer": "Kominfo",
+        "year": "2023",
+        "badge": "Kominfo",
+        "image": "/certs/cert-kominfo.jpg",
+        "competencies": ["Network Topology Design", "Wireless Network Installation", "Routing Configuration", "24 Hours Intensive Training"]
+      },
+      {
+        "id": "3",
+        "title": "Program Analyst",
+        "issuer": "BNSP",
+        "year": "2024",
+        "badge": "BNSP",
+        "image": "/certs/cert-bnsp-analis.jpg",
+        "competencies": ["SQL & Database", "Debugging", "Unit Testing", "Code Documentation", "Scalability Analysis"]
+      }
+    ]
+  },
+  "experience": {
+    "sectionTitle": "Experience",
+    "sectionSubtitle": "Work history",
+    "present": "Present",
+    "responsibilities": "Responsibilities",
+    "items": [
+      {
+        "role": "Front-End Web Developer Intern",
+        "company": "PT Digikreatif Teknologi Indonesia",
+        "period": "Dec 2024 – Feb 2025",
+        "description": "Developed responsive web dashboards and ensured system stability and backend integration.",
+        "responsibilities": [
+          "Built responsive UI components using React.js",
+          "Integrated RESTful APIs with frontend",
+          "Performed debugging and web application performance optimization",
+          "Collaborated with backend team to ensure data consistency"
+        ],
+        "tech": ["React.js", "Next.js", "Tailwind CSS", "REST API"]
+      }
+    ]
+  },
+  "projects": {
+    "sectionTitle": "Projects",
+    "sectionSubtitle": "Works & technical demonstrations",
+    "viewCode": "View Code",
+    "techStack": "Tech Stack",
+    "items": [
+      {
+        "id": "1",
+        "title": "Responsive Web Dashboard",
+        "description": "Interactive web dashboard with real-time data visualization, user management, and backend API integration built during internship.",
+        "tech": ["React.js", "Next.js", "Tailwind CSS", "REST API"],
+        "github": "https://startup-website-rho.vercel.app/",
+        "category": "Web"
+      }
+    ]
+  },
+  "contact": {
+    "sectionTitle": "Contact",
+    "sectionSubtitle": "Get in touch",
+    "closing": "Open to opportunities in Network Infrastructure and IT Security.",
+    "namePlaceholder": "Your Name",
+    "emailPlaceholder": "Your Email",
+    "messagePlaceholder": "Your Message",
+    "sendButton": "Send Message",
+    "sending": "Sending...",
+    "successMessage": "Message sent successfully! I'll respond shortly.",
+    "emailLabel": "Email",
+    "linkedinLabel": "LinkedIn",
+    "githubLabel": "GitHub"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "madeWith": "Made with"
+  },
+  "meta": {
+    "title": "Muhammad Fadhil Hani | Network & IT Security Portfolio",
+    "description": "BNSP Certified Junior Network Administrator specializing in routing, switching, IP addressing, and network security."
+  }
+}

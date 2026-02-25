@@ -1,0 +1,138 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "about": "Tentang",
+    "skills": "Keahlian",
+    "certifications": "Sertifikasi",
+    "experience": "Pengalaman",
+    "projects": "Proyek",
+    "contact": "Kontak"
+  },
+  "hero": {
+    "name": "Muhammad Fadhil Hani",
+    "title": "Fresh Graduate Teknik Informatika",
+    "subtitle": "Bersertifikat BNSP | Network & IT Security Enthusiast",
+    "summary": "Lulusan Pendidikan Teknik Informatika dan Komputer dengan sertifikasi BNSP di bidang Rekayasa Jaringan Komputer dan Analis Program. Berpengalaman dalam konfigurasi routing, switch, pengalamatan IP, serta troubleshooting jaringan.",
+    "downloadCV": "Unduh CV",
+    "contactMe": "Hubungi Saya",
+    "statusBadge": "Tersedia untuk Kerja",
+    "scrollDown": "Gulir ke bawah"
+  },
+  "about": {
+    "sectionTitle": "Tentang Saya",
+    "sectionSubtitle": "Mengenal lebih dekat",
+    "education": "Pendidikan",
+    "educationValue": "S1 Pendidikan Teknik Informatika dan Komputer",
+    "university": "Universitas Negeri Makassar",
+    "gpa": "IPK",
+    "gpaValue": "3.93 / 4.00",
+    "focus": "Fokus Studi",
+    "focusValue": "Infrastruktur Jaringan & Keamanan Sistem",
+    "interest": "Minat",
+    "interestValue": "Network Infrastructure, Routing, Switching, IT Security",
+    "bio": "Saya adalah seorang lulusan baru yang penuh semangat di bidang Teknik Informatika dengan spesialisasi pada jaringan komputer dan keamanan TI. Dengan sertifikasi BNSP dan pengalaman praktis, saya siap berkontribusi dalam lingkungan profesional."
+  },
+  "skills": {
+    "sectionTitle": "Keahlian",
+    "sectionSubtitle": "Kemampuan teknis yang dikuasai",
+    "networkTitle": "Infrastruktur Jaringan",
+    "systemsTitle": "Sistem & Pemrograman",
+    "networkSkills": ["Administrasi Jaringan", "Pengalamatan IP & Subnetting", "Konfigurasi Routing (Intra & Inter-AS)", "Konfigurasi Switch", "Instalasi Jaringan Nirkabel", "Troubleshooting Jaringan", "Dasar Keamanan Jaringan"],
+    "systemSkills": ["SQL", "Debugging", "Unit Testing", "HTML, CSS, JavaScript", "React.js / Next.js"]
+  },
+  "certifications": {
+    "sectionTitle": "Sertifikasi",
+    "sectionSubtitle": "Kualifikasi & pencapaian profesional",
+    "viewCert": "Lihat Sertifikat",
+    "close": "Tutup",
+    "competencies": "Kompetensi Utama",
+    "items": [
+      {
+        "id": "1",
+        "title": "Junior Network Administrator",
+        "issuer": "BNSP",
+        "year": "2024",
+        "badge": "BNSP",
+        "image": "/certs/cert-bnsp-network.jpg",
+        "competencies": ["Rekayasa Jaringan Komputer", "Routing antar AS", "Konfigurasi Switch", "Pengalamatan IP"]
+      },
+      {
+        "id": "2",
+        "title": "Digital Talent Scholarship",
+        "issuer": "Kominfo",
+        "year": "2023",
+        "badge": "Kominfo",
+        "image": "/certs/cert-kominfo.jpg",
+        "competencies": ["Perancangan Topologi Jaringan", "Instalasi Jaringan Nirkabel", "Konfigurasi Routing", "24 Jam Pelatihan Intensif"]
+      },
+      {
+        "id": "3",
+        "title": "Analis Program",
+        "issuer": "BNSP",
+        "year": "2024",
+        "badge": "BNSP",
+        "image": "/certs/cert-bnsp-analis.jpg",
+        "competencies": ["SQL & Database", "Debugging", "Unit Testing", "Dokumentasi Kode", "Analisis Skalabilitas"]
+      }
+    ]
+  },
+  "experience": {
+    "sectionTitle": "Pengalaman",
+    "sectionSubtitle": "Riwayat pekerjaan",
+    "present": "Sekarang",
+    "responsibilities": "Tanggung Jawab",
+    "items": [
+      {
+        "role": "Front-End Web Developer Intern",
+        "company": "PT Digikreatif Teknologi Indonesia",
+        "period": "Des 2024 – Feb 2025",
+        "description": "Mengembangkan dashboard web responsif serta memastikan stabilitas sistem dan integrasi dengan backend.",
+        "responsibilities": [
+          "Membangun komponen UI responsif menggunakan React.js",
+          "Mengintegrasikan API RESTful dengan frontend",
+          "Melakukan debugging dan optimasi performa aplikasi web",
+          "Berkolaborasi dengan tim backend untuk memastikan konsistensi data"
+        ],
+        "tech": ["React.js", "Next.js", "Tailwind CSS", "REST API"]
+      }
+    ]
+  },
+  "projects": {
+    "sectionTitle": "Proyek",
+    "sectionSubtitle": "Karya & demonstrasi teknis",
+    "viewCode": "Lihat Kode",
+    "techStack": "Teknologi",
+    "items": [
+      {
+        "id": "1",
+        "title": "Web Dashboard Responsif",
+        "description": "Dashboard web interaktif dengan tampilan data real-time, manajemen pengguna, dan integrasi API backend yang dibangun selama magang.",
+        "tech": ["React.js", "Next.js", "Tailwind CSS", "REST API"],
+        "github": "https://startup-website-rho.vercel.app/",
+        "category": "Web"
+      }
+    ]
+  },
+  "contact": {
+    "sectionTitle": "Kontak",
+    "sectionSubtitle": "Hubungi saya",
+    "closing": "Terbuka untuk peluang di bidang Infrastruktur Jaringan dan Keamanan TI.",
+    "namePlaceholder": "Nama Anda",
+    "emailPlaceholder": "Email Anda",
+    "messagePlaceholder": "Pesan Anda",
+    "sendButton": "Kirim Pesan",
+    "sending": "Mengirim...",
+    "successMessage": "Pesan berhasil terkirim! Saya akan segera merespons.",
+    "emailLabel": "Email",
+    "linkedinLabel": "LinkedIn",
+    "githubLabel": "GitHub"
+  },
+  "footer": {
+    "rights": "Hak cipta dilindungi",
+    "madeWith": "Dibuat dengan"
+  },
+  "meta": {
+    "title": "Muhammad Fadhil Hani | Portofolio Jaringan & Keamanan TI",
+    "description": "Junior Network Administrator bersertifikat BNSP dengan spesialisasi routing, switching, pengalamatan IP, dan keamanan jaringan."
+  }
+}
