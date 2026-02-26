@@ -1,14 +1,17 @@
-import Navbar from '@/components/Navbar';
-import Hero from '@/components/Hero';
-import About from '@/components/About';
-import Skills from '@/components/Skills';
-import Certifications from '@/components/Certifications';
-import Experience from '@/components/Experience';
-import Projects from '@/components/Projects';
-import Contact from '@/components/Contact';
-import Footer from '@/components/Footer';
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import About from "@/components/About";
+import Skills from "@/components/Skills";
+import Certifications from "@/components/Certifications";
+import Experience from "@/components/Experience";
+import Projects from "@/components/Projects";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
+import { setRequestLocale } from "next-intl/server";
 
 export default function HomePage({ params: { locale } }: { params: { locale: string } }) {
+  setRequestLocale(locale);
+
   return (
     <main className="relative bg-[#0a1628] min-h-screen overflow-x-hidden">
       {/* Scanline effect */}
