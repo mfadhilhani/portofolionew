@@ -11,8 +11,8 @@
   "hero": {
     "name": "Muhammad Fadhil Hani",
     "title": "Informatics Engineering Graduate",
-    "subtitle": "BNSP Certified | Network & IT Security Enthusiast",
-    "summary": "Bachelor graduate in Informatics Engineering Education with BNSP certifications in Computer Network Engineering and Program Analysis. Skilled in routing configuration, switching, IP addressing, and network troubleshooting.",
+    "subtitle": "BNSP Certified | Web Developer & IT Enthusiast",
+    "summary": "Bachelor graduate in Informatics Engineering Education with BNSP certifications in Program Analysis and Computer Network Engineering. Experienced in building responsive web interfaces, browser-based information systems, and applying structured programming principles and software development best practices.",
     "downloadCV": "Download CV",
     "contactMe": "Contact Me",
     "statusBadge": "Ready for Work",
@@ -27,18 +27,26 @@
     "gpa": "GPA",
     "gpaValue": "3.93 / 4.00",
     "focus": "Study Focus",
-    "focusValue": "Network Infrastructure & System Security",
+    "focusValue": "Web Development & Structured Programming",
     "interest": "Interests",
-    "interestValue": "Network Infrastructure, Routing, Switching, IT Security",
-    "bio": "I am an enthusiastic fresh graduate in Informatics Engineering specializing in computer networking and IT security. With BNSP certifications and hands-on experience, I am ready to contribute in a professional environment."
+    "interestValue": "Web Development, UI Implementation, Structured Programming, Network Infrastructure",
+    "bio": "I am a fresh graduate in Informatics Engineering who has built practical experience through the Kemnaker internship program and industry internship. Comfortable working with HTML, CSS, JavaScript, React.js, and Next.js to build functional and well-structured web interfaces. Holding BNSP certifications in Program Analysis and Junior Network Administration."
   },
   "skills": {
     "sectionTitle": "Skills",
     "sectionSubtitle": "Technical competencies",
-    "networkTitle": "Network Infrastructure",
+    "networkTitle": "Web Development",
     "systemsTitle": "Systems & Programming",
-    "networkSkills": ["Network Administration", "IP Addressing & Subnetting", "Routing Configuration (Intra & Inter-AS)", "Switch Configuration", "Wireless Network Installation", "Network Troubleshooting", "Network Security Fundamentals"],
-    "systemSkills": ["SQL", "Debugging", "Unit Testing", "HTML, CSS, JavaScript", "React.js / Next.js"]
+    "networkSkills": [
+      "User Interface Implementation (HTML, CSS, JavaScript)",
+      "React.js / Next.js",
+      "Tailwind CSS / Bootstrap",
+      "RESTful API Integration",
+      "Structured Programming",
+      "Library & Pre-existing Component Usage",
+      "Debugging & Web Performance Optimization"
+    ],
+    "systemSkills": ["SQL & Database", "Unit Testing", "Code Documentation & Best Practices", "File & Folder Structure Organization", "PDF & Excel Export from Web", "Network Administration & IP Addressing"]
   },
   "certifications": {
     "sectionTitle": "Certifications",
@@ -49,6 +57,15 @@
     "items": [
       {
         "id": "1",
+        "title": "Program Analyst",
+        "issuer": "BNSP",
+        "year": "2024",
+        "badge": "BNSP",
+        "image": "/certs/cert-bnsp-analis.jpg",
+        "competencies": ["SQL & Database", "Debugging", "Unit Testing", "Code Documentation", "Scalability Analysis"]
+      },
+      {
+        "id": "2",
         "title": "Junior Network Administrator",
         "issuer": "BNSP",
         "year": "2024",
@@ -57,22 +74,13 @@
         "competencies": ["Computer Network Engineering", "Inter-AS Routing", "Switch Configuration", "IP Addressing"]
       },
       {
-        "id": "2",
+        "id": "3",
         "title": "Digital Talent Scholarship",
         "issuer": "Kominfo",
         "year": "2023",
         "badge": "Kominfo",
         "image": "/certs/cert-kominfo.jpg",
         "competencies": ["Network Topology Design", "Wireless Network Installation", "Routing Configuration", "24 Hours Intensive Training"]
-      },
-      {
-        "id": "3",
-        "title": "Program Analyst",
-        "issuer": "BNSP",
-        "year": "2024",
-        "badge": "BNSP",
-        "image": "/certs/cert-bnsp-analis.jpg",
-        "competencies": ["SQL & Database", "Debugging", "Unit Testing", "Code Documentation", "Scalability Analysis"]
       }
     ]
   },
@@ -82,6 +90,22 @@
     "present": "Present",
     "responsibilities": "Responsibilities",
     "items": [
+      {
+        "role": "Public Facility Management",
+        "company": "Lembaga Pemasyarakatan Kelas IIB Nunukan (Kemnaker Program)",
+        "period": "Dec 2025 – Jun 2026",
+        "description": "Participated in the Ministry of Manpower of the Republic of Indonesia's internship program for university graduates, serving in a Public Facility Management role. During the internship, developed a web-based correspondence information system that was directly utilized by the agency.",
+        "responsibilities": [
+          "Designed and implemented the user interface for a web-based correspondence management system",
+          "Wrote HTML, CSS, and JavaScript code following coding guidelines and best practices",
+          "Organized programming functions and files in a clean, well-documented folder structure",
+          "Integrated pre-existing libraries for PDF and Excel export features",
+          "Implemented structured programming logic: branching, loops, functions, and letter data array management",
+          "Built JSON-based data backup and restore functionality",
+          "Performed debugging and functional testing of the application in a browser environment"
+        ],
+        "tech": ["HTML", "CSS", "JavaScript", "PDF Export Library", "Excel Export Library"]
+      },
       {
         "role": "Front-End Web Developer Intern",
         "company": "PT Digikreatif Teknologi Indonesia",
@@ -100,23 +124,32 @@
   "projects": {
     "sectionTitle": "Projects",
     "sectionSubtitle": "Works & technical demonstrations",
-    "viewCode": "View Code",
+    "viewCode": "View Demo",
     "techStack": "Tech Stack",
     "items": [
       {
         "id": "1",
+        "title": "Web Correspondence System – Lapas Kelas IIB Nunukan",
+        "description": "A browser-based correspondence management system built during the Kemnaker internship program at Lapas Nunukan. Manages automatic outgoing letter numbering based on classification codes, with letter archiving, PDF and Excel export, and JSON-based backup/restore. Runs entirely in the browser with no backend server.",
+        "tech": ["HTML", "CSS", "JavaScript", "PDF Export", "Excel Export", "JSON"],
+        "github": "https://mfadhilhani.github.io/Web-Persuratan/",
+        "category": "Web"
+      },
+      {
+        "id": "2",
         "title": "Responsive Web Dashboard",
-        "description": "Interactive web dashboard with real-time data visualization, user management, and backend API integration built during internship.",
+        "description": "Interactive web dashboard with real-time data visualization, user management, and backend API integration built during internship at PT Digikreatif Teknologi Indonesia.",
         "tech": ["React.js", "Next.js", "Tailwind CSS", "REST API"],
         "github": "https://startup-website-rho.vercel.app/",
         "category": "Web"
       }
     ]
   },
+
   "contact": {
     "sectionTitle": "Contact",
     "sectionSubtitle": "Get in touch",
-    "closing": "Open to opportunities in Network Infrastructure and IT Security.",
+    "closing": "Open to opportunities in Web Development and Information Technology.",
     "namePlaceholder": "Your Name",
     "emailPlaceholder": "Your Email",
     "messagePlaceholder": "Your Message",
@@ -132,7 +165,7 @@
     "madeWith": "Made with"
   },
   "meta": {
-    "title": "Muhammad Fadhil Hani | Network & IT Security Portfolio",
-    "description": "BNSP Certified Junior Network Administrator specializing in routing, switching, IP addressing, and network security."
+    "title": "Muhammad Fadhil Hani | Web Developer Portfolio",
+    "description": "BNSP Certified fresh graduate in Informatics Engineering with web development experience from Kemnaker internship program and industry internship."
   }
 }

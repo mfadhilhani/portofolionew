@@ -11,8 +11,8 @@
   "hero": {
     "name": "Muhammad Fadhil Hani",
     "title": "Fresh Graduate Teknik Informatika",
-    "subtitle": "Bersertifikat BNSP | Network & IT Security Enthusiast",
-    "summary": "Lulusan Pendidikan Teknik Informatika dan Komputer dengan sertifikasi BNSP di bidang Rekayasa Jaringan Komputer dan Analis Program. Berpengalaman dalam konfigurasi routing, switch, pengalamatan IP, serta troubleshooting jaringan.",
+    "subtitle": "Bersertifikat BNSP | Web Developer & IT Enthusiast",
+    "summary": "Lulusan S1 Pendidikan Teknik Informatika dan Komputer dengan sertifikasi BNSP di bidang Analis Program dan Rekayasa Jaringan Komputer. Berpengalaman membangun antarmuka web responsif, sistem informasi berbasis browser, serta menerapkan prinsip pemrograman terstruktur dan best practices pengembangan perangkat lunak.",
     "downloadCV": "Unduh CV",
     "contactMe": "Hubungi Saya",
     "statusBadge": "Siap untuk Kerja",
@@ -27,18 +27,26 @@
     "gpa": "IPK",
     "gpaValue": "3.93 / 4.00",
     "focus": "Fokus Studi",
-    "focusValue": "Infrastruktur Jaringan & Keamanan Sistem",
+    "focusValue": "Pengembangan Web & Pemrograman Terstruktur",
     "interest": "Minat",
-    "interestValue": "Network Infrastructure, Routing, Switching, IT Security",
-    "bio": "Saya adalah seorang lulusan baru yang penuh semangat di bidang Teknik Informatika dengan spesialisasi pada jaringan komputer dan keamanan TI. Dengan sertifikasi BNSP dan pengalaman praktis, saya siap berkontribusi dalam lingkungan profesional."
+    "interestValue": "Web Development, UI Implementation, Structured Programming, Network Infrastructure",
+    "bio": "Saya adalah lulusan baru Teknik Informatika yang aktif membangun pengalaman praktis melalui program pemagangan Kemnaker dan magang industri. Terbiasa bekerja dengan HTML, CSS, JavaScript, React.js, dan Next.js untuk membangun antarmuka web yang fungsional dan rapi. Memegang sertifikasi BNSP Analis Program dan Junior Network Administrator."
   },
   "skills": {
     "sectionTitle": "Keahlian",
     "sectionSubtitle": "Kemampuan teknis yang dikuasai",
-    "networkTitle": "Infrastruktur Jaringan",
+    "networkTitle": "Pengembangan Web",
     "systemsTitle": "Sistem & Pemrograman",
-    "networkSkills": ["Administrasi Jaringan", "Pengalamatan IP & Subnetting", "Konfigurasi Routing (Intra & Inter-AS)", "Konfigurasi Switch", "Instalasi Jaringan Nirkabel", "Troubleshooting Jaringan", "Dasar Keamanan Jaringan"],
-    "systemSkills": ["SQL", "Debugging", "Unit Testing", "HTML, CSS, JavaScript", "React.js / Next.js"]
+    "networkSkills": [
+      "Implementasi User Interface (HTML, CSS, JavaScript)",
+      "React.js / Next.js",
+      "Tailwind CSS / Bootstrap",
+      "Integrasi RESTful API",
+      "Pemrograman Terstruktur",
+      "Penggunaan Library & Komponen Pre-existing",
+      "Debugging & Optimasi Performa Web"
+    ],
+    "systemSkills": ["SQL & Database", "Unit Testing", "Dokumentasi Kode & Best Practices", "Organisasi Struktur File & Folder", "Export PDF & Excel dari Web", "Network Administration & IP Addressing"]
   },
   "certifications": {
     "sectionTitle": "Sertifikasi",
@@ -49,6 +57,15 @@
     "items": [
       {
         "id": "1",
+        "title": "Analis Program",
+        "issuer": "BNSP",
+        "year": "2024",
+        "badge": "BNSP",
+        "image": "/certs/cert-bnsp-analis.jpg",
+        "competencies": ["SQL & Database", "Debugging", "Unit Testing", "Dokumentasi Kode", "Analisis Skalabilitas"]
+      },
+      {
+        "id": "2",
         "title": "Junior Network Administrator",
         "issuer": "BNSP",
         "year": "2024",
@@ -57,22 +74,13 @@
         "competencies": ["Rekayasa Jaringan Komputer", "Routing antar AS", "Konfigurasi Switch", "Pengalamatan IP"]
       },
       {
-        "id": "2",
+        "id": "3",
         "title": "Digital Talent Scholarship",
         "issuer": "Kominfo",
         "year": "2023",
         "badge": "Kominfo",
         "image": "/certs/cert-kominfo.jpg",
         "competencies": ["Perancangan Topologi Jaringan", "Instalasi Jaringan Nirkabel", "Konfigurasi Routing", "24 Jam Pelatihan Intensif"]
-      },
-      {
-        "id": "3",
-        "title": "Analis Program",
-        "issuer": "BNSP",
-        "year": "2024",
-        "badge": "BNSP",
-        "image": "/certs/cert-bnsp-analis.jpg",
-        "competencies": ["SQL & Database", "Debugging", "Unit Testing", "Dokumentasi Kode", "Analisis Skalabilitas"]
       }
     ]
   },
@@ -82,6 +90,22 @@
     "present": "Sekarang",
     "responsibilities": "Tanggung Jawab",
     "items": [
+      {
+        "role": "Pengelola Fasilitas Umum",
+        "company": "Lembaga Pemasyarakatan Kelas IIB Nunukan (Program Kemnaker)",
+        "period": "Des 2025 – Jun 2026",
+        "description": "Mengikuti Program Pemagangan Lulusan Perguruan Tinggi dari Kementerian Ketenagakerjaan RI pada jabatan Pengelola Fasilitas Umum. Selama pemagangan, membangun sistem informasi persuratan berbasis web yang digunakan secara langsung oleh instansi.",
+        "responsibilities": [
+          "Merancang dan mengimplementasikan antarmuka pengguna (UI) sistem persuratan berbasis web",
+          "Menulis kode HTML, CSS, dan JavaScript mengikuti prinsip coding guidelines dan best practices",
+          "Menyusun fungsi dan file pemrograman dalam struktur folder yang rapi dan terdokumentasi",
+          "Menggunakan library pre-existing untuk fitur export PDF dan export Excel",
+          "Mengimplementasikan logika pemrograman terstruktur: percabangan, pengulangan, fungsi, dan pengelolaan array data surat",
+          "Membangun fitur backup dan restore data berbasis JSON",
+          "Melakukan debugging dan pengujian fungsionalitas aplikasi di lingkungan browser"
+        ],
+        "tech": ["HTML", "CSS", "JavaScript", "PDF Export Library", "Excel Export Library"]
+      },
       {
         "role": "Front-End Web Developer Intern",
         "company": "PT Digikreatif Teknologi Indonesia",
@@ -100,23 +124,32 @@
   "projects": {
     "sectionTitle": "Proyek",
     "sectionSubtitle": "Karya & demonstrasi teknis",
-    "viewCode": "Lihat Kode",
+    "viewCode": "Lihat Demo",
     "techStack": "Teknologi",
     "items": [
       {
         "id": "1",
+        "title": "Sistem Persuratan Web – Lapas Kelas IIB Nunukan",
+        "description": "Sistem informasi persuratan berbasis web yang dibangun selama program pemagangan Kemnaker di Lapas Nunukan. Mengelola penomoran surat keluar secara otomatis berdasarkan kode klasifikasi, dilengkapi arsip surat, fitur export PDF dan Excel, serta backup/restore data JSON. Dijalankan langsung di browser tanpa backend server.",
+        "tech": ["HTML", "CSS", "JavaScript", "PDF Export", "Excel Export", "JSON"],
+        "github": "https://mfadhilhani.github.io/Web-Persuratan/",
+        "category": "Web"
+      },
+      {
+        "id": "2",
         "title": "Web Dashboard Responsif",
-        "description": "Dashboard web interaktif dengan tampilan data real-time, manajemen pengguna, dan integrasi API backend yang dibangun selama magang.",
+        "description": "Dashboard web interaktif dengan tampilan data real-time, manajemen pengguna, dan integrasi API backend yang dibangun selama magang di PT Digikreatif Teknologi Indonesia.",
         "tech": ["React.js", "Next.js", "Tailwind CSS", "REST API"],
         "github": "https://startup-website-rho.vercel.app/",
         "category": "Web"
       }
     ]
   },
+
   "contact": {
     "sectionTitle": "Kontak",
     "sectionSubtitle": "Hubungi saya",
-    "closing": "Terbuka untuk peluang di bidang Infrastruktur Jaringan dan Keamanan TI.",
+    "closing": "Terbuka untuk peluang di bidang Pengembangan Web dan Teknologi Informasi.",
     "namePlaceholder": "Nama Anda",
     "emailPlaceholder": "Email Anda",
     "messagePlaceholder": "Pesan Anda",
@@ -132,7 +165,7 @@
     "madeWith": "Dibuat dengan"
   },
   "meta": {
-    "title": "Muhammad Fadhil Hani | Portofolio Jaringan & Keamanan TI",
-    "description": "Junior Network Administrator bersertifikat BNSP dengan spesialisasi routing, switching, pengalamatan IP, dan keamanan jaringan."
+    "title": "Muhammad Fadhil Hani | Portofolio Web Developer",
+    "description": "Fresh graduate Teknik Informatika bersertifikat BNSP dengan pengalaman pengembangan web dari program pemagangan Kemnaker dan magang industri."
   }
 }
